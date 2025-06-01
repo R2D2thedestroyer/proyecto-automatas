@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;  // Add Windows.Forms namespace
+
 namespace proyecto_automatas
 {
     internal static class Program
