@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace Proyrcto_Final_avance2
+namespace proyecto_automatas
 {
     public partial class Form1 : Form
     {
@@ -37,7 +37,6 @@ namespace Proyrcto_Final_avance2
             textBoxExpresionMatematica.Text = string.Empty;
         }
 
-        // Ensure this matches the event handler assigned in Designer
         private void textBoxExpresionMatematica_TextChanged(object sender, EventArgs e)
         {
             // No agregar texto automáticamente aquí

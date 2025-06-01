@@ -1,6 +1,6 @@
-﻿namespace Proyrcto_Final_avance2
+﻿namespace proyecto_automatas
 {
-    partial class Form1
+    public partial class Form1 : System.Windows.Forms.Form
     {
         /// <summary>
         ///  Required designer variable.

@@ -5,6 +5,10 @@
 <!-- If you want to add resources for the new controls, use the Visual Studio designer to update this file. -->
 <!-- No code changes required unless you want to localize button labels or add resources for new controls. -->
 <!-- If you want to add resources for the new controls, use the Visual Studio designer to update this file. -->
+<!--
+No code changes are required in the .resx file for type/namespace errors,
+but ensure the file is named 'Form1.resx' and is in the same folder as Form1.cs and Form1.Designer.cs.
+-->
 <root>
   <!-- 
     Microsoft ResX Schema 
