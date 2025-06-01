@@ -30,6 +30,10 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.TreeView treeViewDerivacion;
+        private System.Windows.Forms.ListBox listBoxHistorial;
+        private System.Windows.Forms.Label labelArbol;
+        private System.Windows.Forms.Label labelHistorial;
 
         /// <summary>
         ///  Clean up any resources being used.
@@ -72,6 +76,10 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.treeViewDerivacion = new System.Windows.Forms.TreeView();
+            this.listBoxHistorial = new System.Windows.Forms.ListBox();
+            this.labelArbol = new System.Windows.Forms.Label();
+            this.labelHistorial = new System.Windows.Forms.Label();
 
             // textBoxExpresionMatematica
             this.textBoxExpresionMatematica.Name = "textBoxExpresionMatematica";
@@ -227,6 +235,34 @@
             this.button21.Size = new System.Drawing.Size(40, 30);
             this.button21.Click += new System.EventHandler(this.button21_Click);
 
+            // treeViewDerivacion
+            this.treeViewDerivacion.Location = new System.Drawing.Point(400, 30);
+            this.treeViewDerivacion.Name = "treeViewDerivacion";
+            this.treeViewDerivacion.Size = new System.Drawing.Size(300, 250);
+            this.treeViewDerivacion.TabIndex = 23;
+
+            // labelArbol
+            this.labelArbol.AutoSize = true;
+            this.labelArbol.Location = new System.Drawing.Point(400, 10);
+            this.labelArbol.Name = "labelArbol";
+            this.labelArbol.Size = new System.Drawing.Size(150, 15);
+            this.labelArbol.TabIndex = 24;
+            this.labelArbol.Text = "Árbol de Derivación:";
+
+            // listBoxHistorial
+            this.listBoxHistorial.Location = new System.Drawing.Point(400, 300);
+            this.listBoxHistorial.Name = "listBoxHistorial";
+            this.listBoxHistorial.Size = new System.Drawing.Size(300, 150);
+            this.listBoxHistorial.TabIndex = 25;
+
+            // labelHistorial
+            this.labelHistorial.AutoSize = true;
+            this.labelHistorial.Location = new System.Drawing.Point(400, 280);
+            this.labelHistorial.Name = "labelHistorial";
+            this.labelHistorial.Size = new System.Drawing.Size(150, 15);
+            this.labelHistorial.TabIndex = 26;
+            this.labelHistorial.Text = "Historial de Expresiones:";
+
             // Add controls to the form
             this.Controls.Add(this.textBoxExpresionMatematica);
             this.Controls.Add(this.button1);
@@ -250,10 +286,14 @@
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button21);
+            this.Controls.Add(this.treeViewDerivacion);
+            this.Controls.Add(this.listBoxHistorial);
+            this.Controls.Add(this.labelArbol);
+            this.Controls.Add(this.labelHistorial);
 
             this.Name = "Form1";
             this.Text = "Analizador Léxico";
-            this.ClientSize = new System.Drawing.Size(270, 260);
+            this.ClientSize = new System.Drawing.Size(720, 480);
         }
 
         #endregion
