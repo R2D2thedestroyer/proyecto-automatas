@@ -84,7 +84,6 @@
             tabPage1 = new TabPage();
             tabPage2 = new TabPage();
             tabPage3 = new TabPage();
-            listBoxDerivacionJF = new ListBox();
             listBoxDerivacion = new ListBox();
             tabPage4 = new TabPage();
             tabControl1.SuspendLayout();
@@ -402,7 +401,6 @@
             // 
             // tabPage3
             // 
-            tabPage3.Controls.Add(listBoxDerivacionJF);
             tabPage3.Controls.Add(listBoxDerivacion);
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
@@ -411,19 +409,11 @@
             tabPage3.Text = "Tabla de derivacion";
             tabPage3.UseVisualStyleBackColor = true;
             // 
-            // listBoxDerivacionJF
-            // 
-            listBoxDerivacionJF.Location = new Point(266, -1);
-            listBoxDerivacionJF.Name = "listBoxDerivacionJF";
-            listBoxDerivacionJF.Size = new Size(340, 304);
-            listBoxDerivacionJF.TabIndex = 27;
-            listBoxDerivacionJF.SelectedIndexChanged += listBoxDerivacionJF_SelectedIndexChanged;
-            // 
             // listBoxDerivacion
             // 
             listBoxDerivacion.Location = new Point(-2, -3);
             listBoxDerivacion.Name = "listBoxDerivacion";
-            listBoxDerivacion.Size = new Size(269, 304);
+            listBoxDerivacion.Size = new Size(608, 319);
             listBoxDerivacion.TabIndex = 26;
             // 
             // tabPage4
@@ -470,6 +460,5 @@
         private TabPage tabPage3;
         private TabPage tabPage4;
         private ListBox listBoxDerivacion;
-        private ListBox listBoxDerivacionJF;
     }
 }

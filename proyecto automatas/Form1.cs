@@ -462,13 +462,6 @@ namespace proyecto_automatas
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Configurar columnas para mostrar Producción + Cadena derivada estilo JFLAP
-            listBoxDerivacionJF.Items.Clear();
-            foreach (string paso in pasosDerivacion)
-            {
-                listBoxDerivacionJF.Items.Add(paso);
-            }
-
             // Botones numéricos (texto negro)
             Button[] botonesNumeros = {
         button14, // 1
@@ -512,11 +505,6 @@ namespace proyecto_automatas
                 btn.ForeColor = Color.White;
                 btn.FlatStyle = FlatStyle.Flat;
             }
-        }
-
-        private void listBoxDerivacionJF_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
